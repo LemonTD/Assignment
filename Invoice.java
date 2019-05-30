@@ -7,7 +7,7 @@ public class Invoice {
     private double pricePerItem;
 
      // Invoice constructor that receives four parameters
-    public Invoicer(String number, String description, int quantityPurchased, double pricePerItem){
+    public Invoice(String number, String description, int quantityPurchased, double pricePerItem){
         this.number = number; // assign number to instance variable number
         this.description = description; 
         this.quantityPurchased = quantityPurchased;
