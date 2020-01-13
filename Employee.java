@@ -4,7 +4,7 @@ public class Employee{
     private double monthlySalary;
 
     // Invoice constructor that receives four parameters
-    public Invoice(String firstName, String lastName, double monthlySalary){
-        
+    public void Invoice(String firstName, String lastName, double monthlySalary){
+        System.out.println("test");
     }
 }
