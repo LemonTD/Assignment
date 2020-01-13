@@ -3,8 +3,14 @@ public class Employee{
     private String lastName;
     private double monthlySalary;
 
-    // Invoice constructor that receives four parameters
-    public void Invoice(String firstName, String lastName, double monthlySalary){
+    
+    public void invoice(){
         System.out.println("test");
+    }
+    
+    public static void main(String[] args){
+    Employee b = new Employee();
+        
+        b.invoice().
     }
 }
